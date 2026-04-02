@@ -131,11 +131,12 @@ margin: auto;
 
 
 #presentacion{
+min-height: 100vh;
 position: relative;
 background-image: url("ESAN.jpg");
 background-size: cover;
 background-position: center;
-background-attachment: fixed;
+background-attachment: scroll;
 color: var(--color-blanco);
 text-align: center;
 padding-top: 100px;
